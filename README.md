@@ -23,6 +23,7 @@ The GPTNews Summary app offers a range of features designed to streamline the pr
     - *Outlines*: The app generates outlines that present the article's structure and main topics, offering users a clear roadmap of the content and making it easier to navigate.
     - *Bullet points*: GPTNews Summary creates bullet points that emphasize important details and key facts from the article, making it simple for users to review the critical information.
     - *Key quotes*: The app identifies and extracts key quotes from the article, showcasing the most compelling or significant statements for users to reference.
+- **Create and populate Notion pages with the generated content**: GPTNews Summary automates the process of organizing and storing the generated summaries, outlines, bullet points, and key quotes in a Notion database. By integrating with the Notion API, the app creates new pages for each summarized article and populates them with the generated content, facilitating easy access, review, and management of the information within the Notion platform.
 
 ### 2. Installation
 
