@@ -1,0 +1,5 @@
+newspaper3k==0.2.8
+openai==0.10.3
+Flask==2.0.1
+notion-client>=0.2.0,<0.7.0
+lxml==4.6.3
