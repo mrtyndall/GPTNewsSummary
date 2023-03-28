@@ -4,14 +4,13 @@ GPTNews Summary is a Python application that leverages OpenAI's GPT-3 and the No
 
 ***Contents***
 
-1. **[Features](https://chat.openai.com/chat/b4e6f963-dbe3-4e37-958d-b47c3baee93e#features)**
-2. **[Installation](https://chat.openai.com/chat/b4e6f963-dbe3-4e37-958d-b47c3baee93e#installation)**
-3. **[Configuration](https://chat.openai.com/chat/b4e6f963-dbe3-4e37-958d-b47c3baee93e#configuration)**
-4. **[Usage](https://chat.openai.com/chat/b4e6f963-dbe3-4e37-958d-b47c3baee93e#usage)**
-5. **[Function Breakdown](notion://www.notion.so/jumbolive/GPTNews-Summary-Instruction-Manual-27776c67cf1542eaa39e917ff150180a#function-breakdown)**
-6. **[Contributing](https://chat.openai.com/chat/b4e6f963-dbe3-4e37-958d-b47c3baee93e#contributing)**
-7. **[License](https://chat.openai.com/chat/b4e6f963-dbe3-4e37-958d-b47c3baee93e#license)**
-
+1. **[Features]
+2. **[Installation]
+3. **[Configuration]
+4. **[Usage]
+5. **[Function Breakdown]
+6. **[Contributing]
+7. **[License]
 ---
 
 ### 1. Features
