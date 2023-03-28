@@ -25,7 +25,7 @@ The GPTNews Summary app offers a range of features designed to streamline the pr
     - *Key quotes*: The app identifies and extracts key quotes from the article, showcasing the most compelling or significant statements for users to reference.
 - **Create and populate Notion pages with the generated content**: GPTNews Summary automates the process of organizing and storing the generated summaries, outlines, bullet points, and key quotes in a Notion database. By integrating with the Notion API, the app creates new pages for each summarized article and populates them with the generated content, facilitating easy access, review, and management of the information within the Notion platform.
 
-### 2. Libraries and Dependencies**
+### 2. Libraries and Dependencies
 
 GPTNews Summary relies on several Python libraries and APIs to perform its functions effectively. This section provides an overview of these libraries and how they contribute to the app's functionality.
 
@@ -38,9 +38,7 @@ GPTNews Summary relies on several Python libraries and APIs to perform its funct
 To install the required libraries and dependencies, run the following command:
 
 ```
-Copy code
 pip install -r requirements.txt
-
 ```
 
 This command will automatically install the necessary Python packages listed in the **`requirements.txt`** file. By utilizing these libraries, GPTNews Summary can efficiently perform its tasks and provide a seamless experience for users.
@@ -50,7 +48,6 @@ This command will automatically install the necessary Python packages listed in 
 1. Clone this repository to your local machine:
     
     ```
-    bashCopy code
     git clone <https://github.com/mrtyndall/GPTNewsSummary.git>
     
     ```
@@ -58,7 +55,6 @@ This command will automatically install the necessary Python packages listed in 
 2. Install the required Python libraries:
     
     ```
-    Copy code
     pip install -r requirements.txt
     
     ```
