@@ -25,11 +25,13 @@ GPTNews Summary is a Python application that uses OpenAI's GPT-3 and the Notion 
 
 GPTNews Summary can be used in two ways:
 
-1. Running the `app.py` file, which allows you to paste a URL at your address (e.g., `example.com:5000`): python app.py
+1. Running the `app.py` file, which allows you to paste a URL at your address (e.g., `example.com:5000`): 
+
+``python app.py``
 
 After running the script, open your web browser and go to the address where the app is hosted (e.g., `http://localhost:5000`). Enter the URL of the news article you want to summarize and click the "Submit" button.
 
-2. Running the `shortcuts.py` file, which allows you to run the summarizer via a GET URL method with a URL formatted like `example.com/news_summary?url=example.com`: python shortcuts.py
+2. Running the `shortcuts.py` file, which allows you to run the summarizer via a GET URL method with a URL formatted like `example.com/news_summary?url=example.com`: ``python shortcuts.py``
 
 After running the script, open your web browser and go to the address where the app is hosted, followed by `/news_summary?url=` and the URL of the news article you want to summarize (e.g., `http://localhost:5000/news_summary?url=https://www.example.com/news-article`).
 
