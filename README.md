@@ -25,7 +25,27 @@ The GPTNews Summary app offers a range of features designed to streamline the pr
     - *Key quotes*: The app identifies and extracts key quotes from the article, showcasing the most compelling or significant statements for users to reference.
 - **Create and populate Notion pages with the generated content**: GPTNews Summary automates the process of organizing and storing the generated summaries, outlines, bullet points, and key quotes in a Notion database. By integrating with the Notion API, the app creates new pages for each summarized article and populates them with the generated content, facilitating easy access, review, and management of the information within the Notion platform.
 
-### 2. Installation
+### 2**. Libraries and Dependencies**
+
+GPTNews Summary relies on several Python libraries and APIs to perform its functions effectively. This section provides an overview of these libraries and how they contribute to the app's functionality.
+
+- **OpenAI GPT-3**: GPTNews Summary uses OpenAI's GPT-3 language model to generate summaries, outlines, bullet points, and key quotes from news articles. To interact with GPT-3, the app utilizes the **`openai`** Python library, which provides an interface to OpenAI's API.
+- **Notion API**: The app integrates with the Notion API to create and populate Notion pages with the generated content. The **`notion-client`** library is used to interact with the Notion API, enabling the app to authenticate, create pages, and manage content within a Notion database.
+- **Newspaper3k**: The **`newspaper3k`** library is used to extract article text, links, and titles from a given URL. This library simplifies the process of obtaining the core content from news articles by automatically filtering out unnecessary elements such as ads, comments, and navigation items.
+- **Flask**: The Flask web framework is used to create a lightweight web application that allows users to input a news article URL and receive the generated summaries, outlines, bullet points, and key quotes. Flask provides a simple and flexible way to build web applications in Python.
+- **Requests**: The **`requests`** library is used to make HTTP requests and interact with web services, such as the OpenAI API and Notion API. This library simplifies the process of sending and receiving data over the internet.
+
+To install the required libraries and dependencies, run the following command:
+
+```
+Copy code
+pip install -r requirements.txt
+
+```
+
+This command will automatically install the necessary Python packages listed in the **`requirements.txt`** file. By utilizing these libraries, GPTNews Summary can efficiently perform its tasks and provide a seamless experience for users.
+
+### 3. Installation
 
 1. Clone this repository to your local machine:
     
@@ -44,13 +64,13 @@ The GPTNews Summary app offers a range of features designed to streamline the pr
     ```
     
 
-### 3. Configuration
+### 4. Configuration
 
 1. Replace **`<YOUR-KEY-HERE>`** with your OpenAI API key in the **`main.py`** file.
 2. Replace **`<YOUR-NOTION-KEY-HERE>`** with your Notion API key in the **`main.py`** file.
 3. Replace **`<YOUR-DATABASE-ID-HERE>`** with the ID of the Notion database you want to use in the **`main.py`** file.
 
-### 4. Usage
+### 5. Usage
 
 GPTNews Summary can be used in two ways:
 
@@ -73,7 +93,7 @@ GPTNews Summary can be used in two ways:
 
 Both methods will generate a summary, outline, bullet points, and key quotes for the news article and create a Notion page with the generated content.
 
-### 4. Function Breakdown
+### 6. Function Breakdown
 
 Here's a brief explanation of each function in the news_summary_app.py script:
 
@@ -120,14 +140,22 @@ Here's a brief explanation of each function in the news_summary_app.py script:
 - **`create_notion_page(...)`**: Creates a Notion page and populates it with the given content.
 - **`main(url)`**: The main function, which ties together all the other functions. Takes a URL as input, extracts and processes the article text, generates summaries, outlines, bullet points, and key quotes, and creates a Notion page with the generated content.
 
-### 5. Contributing
+### 7. Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 If you would like to contribute to the project, please submit a pull request on GitHub with your proposed changes. All contributions are welcome.
 
-### 6. License
+### 8. License
 
-This project is licensed under the MIT License. Please see the LICENSE file for more details.
+This project is licensed under the MIT License. 
 
-By following this expanded instruction manual, you should be able to understand the different functions used in the news_summary_app.py script, how they work together, and how to use the application effectively.
+GPTNews Summary utilizes the following third-party libraries, which are subject to their respective licenses:
+
+- **OpenAI GPT-3**: The **`openai`** Python library is used to interact with GPT-3. Please refer to **[OpenAI's Terms of Service](https://platform.openai.com/docs/terms-of-service)** and the library's **[LICENSE](https://github.com/openai/openai/blob/master/LICENSE.txt)** for more details.
+- **Notion API**: The **`notion-client`** library is used to interact with the Notion API. The library is licensed under the MIT License. Please refer to the library's **[LICENSE](https://github.com/ramnes/notion-sdk-py/blob/main/LICENSE)** for more details.
+- **Newspaper3k**: The **`newspaper3k`** library is licensed under the Apache License 2.0. Please refer to the library's **[LICENSE](https://github.com/codelucas/newspaper/blob/master/LICENSE)** for more details.
+- **Flask**: The Flask web framework is licensed under the BSD-3-Clause License. Please refer to Flask's **[LICENSE](https://github.com/pallets/flask/blob/main/LICENSE.rst)** for more details.
+- **Requests**: The **`requests`** library is licensed under the Apache License 2.0. Please refer to the library's **[LICENSE](https://github.com/psf/requests/blob/main/LICENSE)** for more details.
+
+Please ensure that you adhere to the terms and conditions of each library's license when using GPTNews Summary.
