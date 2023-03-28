@@ -25,7 +25,7 @@ The GPTNews Summary app offers a range of features designed to streamline the pr
     - *Key quotes*: The app identifies and extracts key quotes from the article, showcasing the most compelling or significant statements for users to reference.
 - **Create and populate Notion pages with the generated content**: GPTNews Summary automates the process of organizing and storing the generated summaries, outlines, bullet points, and key quotes in a Notion database. By integrating with the Notion API, the app creates new pages for each summarized article and populates them with the generated content, facilitating easy access, review, and management of the information within the Notion platform.
 
-### 2**. Libraries and Dependencies**
+### 2. Libraries and Dependencies**
 
 GPTNews Summary relies on several Python libraries and APIs to perform its functions effectively. This section provides an overview of these libraries and how they contribute to the app's functionality.
 
