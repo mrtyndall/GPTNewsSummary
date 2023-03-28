@@ -15,9 +15,15 @@ License
 
 ### 1. Features
 
-- Extract article text and links from a given URL
-- Generate summaries, outlines, bullet points, and key quotes using GPT-3
-- Create and populate Notion pages with the generated content
+The GPTNews Summary app offers a range of features designed to streamline the process of summarizing, organizing, and reviewing news articles. These features include:
+
+Extract article text and links from a given URL: GPTNews Summary uses the newspaper library to efficiently extract the main text and associated links from a given news article URL. This process removes unnecessary content such as ads, comments, and navigation elements, leaving only the core information for further processing.
+Generate summaries, outlines, bullet points, and key quotes using GPT-3: By leveraging the power of OpenAI's GPT-3, GPTNews Summary can create concise summaries, informative outlines, easy-to-read bullet points, and highlight key quotes from the extracted article text. GPT-3's advanced natural language understanding capabilities ensure that the generated content is coherent and relevant.
+Summaries: GPTNews Summary produces succinct summaries that capture the main points and context of the article, allowing users to quickly understand the content without reading the full text.
+Outlines: The app generates outlines that present the article's structure and main topics, offering users a clear roadmap of the content and making it easier to navigate.
+Bullet points: GPTNews Summary creates bullet points that emphasize important details and key facts from the article, making it simple for users to review the critical information.
+Key quotes: The app identifies and extracts key quotes from the article, showcasing the most compelling or significant statements for users to reference.
+Create and populate Notion pages with the generated content: GPTNews Summary automates the process of organizing and storing the generated summaries, outlines, bullet points, and key quotes in a Notion database. By integrating with the Notion API, the app creates new pages for each summarized article and populates them with the generated content, facilitating easy access, review, and management of the information within the Notion platform.
 
 ### 2. Installation
 
