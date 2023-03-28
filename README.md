@@ -4,13 +4,13 @@ GPTNews Summary is a Python application that leverages OpenAI's GPT-3 and the No
 
 ***Contents***
 
-1. **[Features]
-2. **[Installation]
-3. **[Configuration]
-4. **[Usage]
-5. **[Function Breakdown]
-6. **[Contributing]
-7. **[License]
+Features
+Installation
+Configuration
+Usage
+Function Breakdown
+Contributing
+License
 ---
 
 ### 1. Features
